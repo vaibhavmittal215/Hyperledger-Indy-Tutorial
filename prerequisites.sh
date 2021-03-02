@@ -11,7 +11,7 @@ sudo bash -c 'echo "deb https://repo.sovrin.org/deb xenial master" >> /etc/apt/s
 sudo bash -c 'echo "deb https://repo.sovrin.org/sdk/deb xenial master" >> /etc/apt/sources.list'
 
 
-sudo apt-get update -y && sudo apt-get install -y libindy-crypto=0.4.5 python3-indy-crypto=0.4.5 indy-plenum=1.13.0~dev1021 indy-cli=1.15.0~1536-xenial
+# sudo apt-get update -y && sudo apt-get install -y libindy-crypto=0.4.5 python3-indy-crypto=0.4.5 indy-plenum=1.13.0~dev1021 indy-cli=1.15.0~1536-xenial
 
 sudo apt-get update -y && sudo apt-get install -y git wget python3.5 python3-pip python-setuptools python3-nacl apt-transport-https ca-certificates
 sudo pip3 install -U 'pip<10.0.0' setuptools
